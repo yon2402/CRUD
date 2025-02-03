@@ -19,4 +19,7 @@ class CConexion:
             print(f"Error al conectar a la base de datos: {err}")
             return None
 
+# Llamada a la función para probar la conexión
+if __name__ == "__main__":
+    CConexion.ConexionBaseDeDatos()
 
